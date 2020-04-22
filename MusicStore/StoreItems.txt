@@ -1,0 +1,65 @@
+﻿-Name|Price|Type|Image filename-
+-Guitars-
+Yamaha GL1 Black|83|Guitars|6373057_800.jpg
+Fender Player Series Strat|569|Guitars|14261753_800.jpg
+Harley Benton Fusion-II|369|Guitars|446805.jpg
+PRS SE Custom 24|839|Guitars|461434.jpg
+Fender Jimi Hendrix Strat|739|Guitars|442765.jpg
+Gibson Les Paul 59|5595|Guitars|461235.jpg
+Music Man Luke III|3075|Guitars|436773.jpg
+Jackson JS1X Rhoads Minion|148|Guitars|400561.jpg
+Startone CG-851|35|Guitars|394733.jpg
+Ortega R221|213|Guitars|263123.jpg
+Harley Benton GS-Travel|102|Guitars|410797.jpg
+-Basses-
+Marcus Miller V7 Swamp|556|Basses|446274.jpg
+Fender SQ CV 70s Jazz Bass|363|Basses|13810176_800.jpg
+Yamaha BB435 TBS|539|Basses|462989.jpg
+Fender AM Pro P Bass|1699|Basses|402632.jpg
+Sandberg Forty Eight VM|1425|Basses|
+Marcus Miller P7 Alder 5|559|Basses|446193.jpg
+-Drums-
+Millenium MX422 Standard|325|Drums|13996386_800.jpg
+Millenium Youngster|92|Drums|14432989_800.jpg
+Mapex TND5294FTC Tornado|325|Drums|9907951_800.jpg
+Millenium MX222 Double Bass|479|Drums|241339.jpg
+Millenium MPS-850|555|Drums|14008547_800.jpg
+Alesis Strike Zone|1545|Drums|12341342_800.jpg
+-Keys-
+Yamaha PSR-E463|269|Keys|13165166_800.jpg
+Casio SA 47|36|Keys|7143953_800.jpg
+Korg PA-1000|1679|Keys|14550983_800.jpg
+Moog One - 16|8111|Keys|14141517_800.jpg
+Akai MPK miniplay|95|Keys|13652521_800.jpg
+Yamaha YDP-144 B Arius|666|Keys|13820886_800.jpg
+Hemingway DP-501 MKII|411|Keys|10557938_800.jpg
+Kawai K-300 E/P SL|5589|Keys|8232033_800.jpg
+Roth & Junius RJGP 186|8295|Keys|253090.jpg
+Steinway & Sons M-170|23299|Keys|460726.jpg
+-Microphones-
+Shure SM58 LC|91|Microphones|8805536_800.jpg
+the t.bone MB 88U Dual|32|Microphones|7911795_800.jpg
+Shure Super 55|215|Microphones|12561556_800.jpg
+Shure Super 55 Deluxe|207|Microphones|
+Audix OM6|182|Microphones|8450978_800.jpg
+Rode NT1-A|148|Microphones|11669583_800.jpg
+Townsend Labs Sphere L22|1489|Microphones|12357307_800.jpg
+Neumann TLM 102|649|Microphones|12706467_800.jpg
+-Brass-
+Yanagisawa A-WO20 Elite|4099|Brass|334489.jpg
+Startone STS-75 Tenor Sax|369|Brass|139262.jpg
+Bach 180-37S ML Trumpet|2777|Brass|100206.jpg
+Startone PTR-20 Bb- Trumpet|91|Brass|454129.jpg
+Yamaha YTR-9835 Trumpet|3399|Brass|226976.jpg
+Schreiber D-26 Bb-Clarinet|1209|Brass|474779.jpg
+Yamaha YOB-431 Oboe|2595|Brass|164227.jpg
+Muramatsu EX-III-RBE Flute|3799|Brass|210533.jpg
+Meinl SDDG1-SI Didgeridoo|123|Brass|319306.jpg
+-String-
+Stentor SR1500 Violin Student II|148|String|137907.jpg
+Klaus Heffler No. 6/0 SE Orch. Violin|829|String|279959.jpg
+Stentor SR1401 Harlequin Violin|129|String|362049.jpg
+Roth & Junius Europe 4/4 Student Violin|249|String|258552.jpg
+Gewa Premium Line Laminated Bass|1299|String|420925.jpg
+Karl Höfner H8-C Cello 4/4|1859|String|356150.jpg
+Harley Benton HBV 990BEM|129|String|325869.jpg

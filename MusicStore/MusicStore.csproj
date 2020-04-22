@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D43469B-B6C4-43D4-A168-48912DB5E036}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MusicStore</RootNamespace>
+    <AssemblyName>MusicStore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="StoreItem.cs" />
+    <Compile Include="User.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\10557938_800.jpg" />
+    <Resource Include="Images\11669583_800.jpg" />
+    <Resource Include="Images\12341342_800.jpg" />
+    <Resource Include="Images\12357307_800.jpg" />
+    <Resource Include="Images\12561556_800.jpg" />
+    <Resource Include="Images\12706467_800.jpg" />
+    <Resource Include="Images\13165166_800.jpg" />
+    <Resource Include="Images\13652521_800.jpg" />
+    <Resource Include="Images\13810176_800.jpg" />
+    <Resource Include="Images\13820886_800.jpg" />
+    <Resource Include="Images\13996386_800.jpg" />
+    <Resource Include="Images\14008547_800.jpg" />
+    <Resource Include="Images\14141517_800.jpg" />
+    <Resource Include="Images\14261753_800.jpg" />
+    <Resource Include="Images\14432989_800.jpg" />
+    <Resource Include="Images\14550983_800.jpg" />
+    <Resource Include="Images\241339.jpg" />
+    <Resource Include="Images\253090.jpg" />
+    <Resource Include="Images\263123.jpg" />
+    <Resource Include="Images\400561.jpg" />
+    <Resource Include="Images\402632.jpg" />
+    <Resource Include="Images\436773.jpg" />
+    <Resource Include="Images\440001.jpg" />
+    <Resource Include="Images\442765.jpg" />
+    <Resource Include="Images\446274.jpg" />
+    <Resource Include="Images\446805.jpg" />
+    <Resource Include="Images\460726.jpg" />
+    <Resource Include="Images\461235.jpg" />
+    <Resource Include="Images\461434.jpg" />
+    <Resource Include="Images\462989.jpg" />
+    <Resource Include="Images\6373057_800.jpg" />
+    <Resource Include="Images\6951947_800.jpg" />
+    <Resource Include="Images\7143953_800.jpg" />
+    <Resource Include="Images\7911795_800.jpg" />
+    <Resource Include="Images\8232033_800.jpg" />
+    <Resource Include="Images\8450978_800.jpg" />
+    <Resource Include="Images\8805536_800.jpg" />
+    <Resource Include="Images\9907951_800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Discounts.txt" />
+    <Resource Include="StoreItems.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Users.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\noimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\410797.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\446193.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\137907.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\100206.jpg" />
+    <Resource Include="Images\139262.jpg" />
+    <Resource Include="Images\164227.jpg" />
+    <Resource Include="Images\210533.jpg" />
+    <Resource Include="Images\226976.jpg" />
+    <Resource Include="Images\258552.jpg" />
+    <Resource Include="Images\279959.jpg" />
+    <Resource Include="Images\319306.jpg" />
+    <Resource Include="Images\325869.jpg" />
+    <Resource Include="Images\334489.jpg" />
+    <Resource Include="Images\356150.jpg" />
+    <Resource Include="Images\362049.jpg" />
+    <Resource Include="Images\420925.jpg" />
+    <Resource Include="Images\454129.jpg" />
+    <Resource Include="Images\474779.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

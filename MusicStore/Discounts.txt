@@ -1,0 +1,4 @@
+﻿-code | dicount %-
+bradpittdiscount|50
+normaldiscount|10
+julrea19|35
